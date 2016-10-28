@@ -1,0 +1,76 @@
+@require 'mola/lib/func.styl'
+
+.mola-baidu-app-download-layer
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: pxTo6pRem(155);
+    display: flex;
+    align-items: center;
+    z-index: 10
+    padding: 0 pxTo6pRem(33);
+    background-color: #fff;
+    border-top: 1px #e0e0e0 solid;
+
+    >i
+        display: block;
+        width: pxTo6pRem(54);
+        height: @width;
+        border-radius: 50%;
+        text-align: center;
+        font-style: normal;
+        background: #ccc;
+        color: #fff;
+        font-family: sans-serif;
+        font-size: pxTo6pRem(36);
+        line-height: @width
+
+    >b
+        display: block;
+        width: pxTo6pRem(108);
+        height: @width;
+        background-image: url(http://m.baidu.com/static/search/baiduapp_icon.png);
+        background-size: contain;
+        margin: 0 pxTo6pRem(30);
+
+    >section
+        flex: 1 1 auto;
+
+        >h4
+            font-size: pxTo6pRem(48);
+            margin-top: pxTo6pRem(8);
+            font-weight: 700;
+            color: #333;
+
+        >p
+            font-size: pxTo6pRem(39);
+            margin-top: pxTo6pRem(15);
+            color: #999
+
+    >a
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: pxTo6pRem(84);
+        width: pxTo6pRem(195);
+        border: 1px solid #e0e0e0;
+        font-size: pxTo6pRem(36);
+        font-weight: 700;
+        border-radius: 3px;
+        color: #333;
+        text-decoration: none;
+
+        &:visited
+            color: #333;
+
+    >div
+        position: fixed
+        top: 0
+        left: 0
+        right: 0
+        bottom: 0
+        background-color: #fff
+        background-size: 100% auto
+        background-repeat: no-repeat
+        zIndex: 9999

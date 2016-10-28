@@ -1,0 +1,42 @@
+{
+    "name": "mola-download-layer",
+    "description": "mola download layer",
+    "main": [
+        "lib/index.js",
+        "lib/index.styl"
+    ],
+    "authors": [
+        "leon <ludafa@outlook.com>"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "react",
+        "mola",
+        "download-layer"
+    ],
+    "moduleTypes": "umd",
+    "homepage": "https://github.com/jinzhubaofu/mola-download-layer",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "**/*.log",
+        ".DS_Store",
+        "test",
+        "tests",
+        "src",
+        "example",
+        "tools"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jinzhubaofu/mola-download-layer"
+    },
+    "dependencies": {
+        "classnames": "^2.2.5",
+        "mola": "^1.0.0",
+        "react": "^0.14.8",
+        "react-dom": "^0.14.8"
+    },
+    "version": "1.0.4"
+}
