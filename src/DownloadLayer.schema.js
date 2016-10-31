@@ -64,7 +64,7 @@ export default {
             description: '在微博中使用的『在浏览器中打开』引导图片'
         },
         weiboIOSImageURL: {
-            title: '安卓微博『在浏览器中打开』引导图片',
+            title: 'IOS 微博『在浏览器中打开』引导图片',
             type: 'string',
             format: 'uri',
             description: '在微博中使用的『在浏览器中打开』引导图片'
