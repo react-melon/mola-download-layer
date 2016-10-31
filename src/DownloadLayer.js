@@ -65,7 +65,8 @@ export class DownloadLayer extends Component {
             subTitle,
             itunesSchema,
             apkURL,
-            yingyongbaoURL
+            yingyongbaoURL,
+            logoURL
         } = this.props;
 
         let href = '';
@@ -86,7 +87,7 @@ export class DownloadLayer extends Component {
                 className={cx('mola-baidu-app-download-layer', className)}
                 style={style}>
                 <i onClick={() => this.setState({open: false})}>x</i>
-                <b />
+                <b style={{backgroundImage: `url(${logoURL})`}}/>
                 <section>
                     <h4>{title}</h4>
                     <p>{subTitle}</p>
@@ -102,6 +103,7 @@ export class DownloadLayer extends Component {
 DownloadLayer.displayName = type;
 
 DownloadLayer.propTypes = {
+    logoURL: PropTypes.string.isRequired,
     itunesSchema: PropTypes.string.isRequired,
     apkURL: PropTypes.string.isRequired,
     weiboAndroidImageURL: PropTypes.string.isRequired,
