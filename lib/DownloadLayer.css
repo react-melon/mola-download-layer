@@ -1,0 +1,69 @@
+.mola-baidu-app-download-layer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 2.924969806763285rem;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  padding: 0 0.622735507246377rem;
+  background-color: #fff;
+  border-top: 1px #e0e0e0 solid;
+}
+.mola-baidu-app-download-layer >i {
+  display: block;
+  width: 1.019021739130435rem;
+  height: 1.019021739130435rem;
+  background-image: url("http://boscdn.bpc.baidu.com/mms-res/voicefe/captain/images/021404833454ef84998570c7c9b5e129.png");
+  background-size: 100%;
+}
+.mola-baidu-app-download-layer >b {
+  display: block;
+  width: 2.038043478260869rem;
+  height: 2.038043478260869rem;
+  background-image: url("http://m.baidu.com/static/search/baiduapp_icon.png");
+  background-size: contain;
+  margin: 0 0.566123188405797rem;
+}
+.mola-baidu-app-download-layer >section {
+  flex: 1 1 auto;
+}
+.mola-baidu-app-download-layer >section >h4 {
+  font-size: 0.905797101449275rem;
+  margin-top: 0.150966183574879rem;
+  font-weight: 700;
+  color: #333;
+}
+.mola-baidu-app-download-layer >section >p {
+  font-size: 0.735960144927536rem;
+  margin-top: 0.283061594202899rem;
+  color: #999;
+}
+.mola-baidu-app-download-layer >a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.585144927536232rem;
+  width: 3.679800724637681rem;
+  border: 1px solid #e0e0e0;
+  font-size: 0.679347826086956rem;
+  font-weight: 700;
+  border-radius: 3px;
+  color: #333;
+  text-decoration: none;
+}
+.mola-baidu-app-download-layer >a:visited {
+  color: #333;
+}
+.mola-baidu-app-download-layer >div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  zIndex: 9999;
+}

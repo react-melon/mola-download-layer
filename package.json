@@ -1,6 +1,6 @@
 {
   "name": "mola-download-layer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A mola component",
   "main": "lib/DownloadLayer.js",
   "scripts": {

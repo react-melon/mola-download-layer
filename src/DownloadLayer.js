@@ -86,7 +86,7 @@ export class DownloadLayer extends Component {
             <div
                 className={cx('mola-baidu-app-download-layer', className)}
                 style={style}>
-                <i onClick={() => this.setState({open: false})}>x</i>
+                <i onClick={() => this.setState({open: false})} />
                 <b style={{backgroundImage: `url(${logoURL})`}}/>
                 <section>
                     <h4>{title}</h4>
