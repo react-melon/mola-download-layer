@@ -1,6 +1,6 @@
 {
   "name": "mola-download-layer",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A mola component",
   "main": "lib/DownloadLayer.js",
   "scripts": {
@@ -27,8 +27,8 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "mola": "^1.0.0",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8"
+    "react": "^0.14.8||^15.4.0",
+    "react-dom": "^0.14.8||^15.4.0"
   },
   "devDependencies": {
     "babel-istanbul": "^0.11.0",
